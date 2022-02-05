@@ -1,0 +1,25 @@
+.container {
+  background-color: slategrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.listItem {
+  display: flex;
+  background-color: orchid;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 20px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
